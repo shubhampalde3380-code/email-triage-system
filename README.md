@@ -1,31 +1,30 @@
-Our team built this system to tackle the mess of unorganized inboxes. We noticed how much time people waste manually sorting emails, so we created a machine learning tool that categorizes messages automatically, allowing users to focus on what actually matters.
+Email Triage System
+Our team developed this system to address the daily frustration of managing cluttered inboxes. We realized that manual email sorting consumes too much time, so we built a structured solution that organizes messages automatically, helping users prioritize their most important work.
 
-🌐 Project in Action
-We have hosted the live application on Hugging Face. You can test it here:
-View Live App
+🌐 Live System Access
+The working model is currently hosted and can be accessed here:
+Explore the Live App
 
-💡 Why We Built This
-The goal was simple: make email management smarter. Our team worked on connecting a solid machine learning backend with an easy-to-use Streamlit frontend. We wanted to ensure that even a non-technical user could get their emails sorted in seconds.
+💡 The Problem We Solved
+The main objective was to simplify communication management. Our team focused on creating a seamless connection between a robust backend logic and a straightforward user interface. We wanted a tool that requires zero technical knowledge to operate, making professional organization accessible to everyone.
 
 📁 Repository Layout
-We organized the files to keep the development process clean:
+We have organized the project into a modular structure for better clarity:
 
-Frontend/: This folder contains the app.py and all UI-related logic.
+Frontend/: This section manages the user interaction and visual components.
 
-backend/: Here, we’ve stored the environment setups and core model configurations.
+backend/: This houses the internal configurations and system environments.
 
-Main Directory: The Dockerfile, inference.py, and requirements.txt are placed here to make deployment straightforward and error-free.
+Main Directory: Crucial setup files and core processing scripts are kept here to ensure the system functions smoothly across different platforms.
 
-🛠️ Tech We Used
-Language: Python
+🛠️ Development Approach
+User Interface: Streamlit
 
-Web Framework: Streamlit
+Infrastructure: Docker & Hugging Face Spaces
 
-Deployment: Docker & Hugging Face Spaces
+Core Logic: We used custom classification patterns to identify and sort data into specific, useful categories.
 
-Logic: Scikit-learn for intelligent classification.
+🚀 Future Goals
+Our team is currently testing the system with various data scenarios to further improve its accuracy. We also plan to introduce an automated response suggestion feature to help users reply to their categorized messages even faster.
 
-🚀 What's Next?
-This is our initial prototype. Moving forward, our team plans to retrain the model on larger, more diverse datasets to push the accuracy even higher. We are also looking into adding a feature that drafts quick responses based on the email’s category.
-
-Team Project | Developed for the Hackathon with a focus on practical AI solutions.
+Team Project | Created for the Hackathon to provide a practical answer to modern communication challenges.
